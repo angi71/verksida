@@ -17,5 +17,8 @@ defaults:
       path: ""
     values:
       layout: "default"
+  - scope:
+     paht: "assets/img"
+     image: true
 
-baseurl: "verksida"
+baseurl: ""

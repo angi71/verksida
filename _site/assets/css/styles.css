@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box; }
+
+.val {
+  display: grid;
+  grid-template-rows: 1fr;
+  text-align: center;
+  background-color: coral; }
+
+.current {
+  color: limegreen;
+  background-color: #fc5417; }
+
+.cent {
+  text-align: center; }
+
+.container {
+  margin: 0 auto;
+  padding: 1em; }
+
+.bakgrun {
+  background: lightblue;
+  width: 100%; }
+
+header {
+  color: blue; }
+
+li {
+  list-style-type: none;
+  text-align: center; }
+
+a {
+  text-decoration: none;
+  color: #2e2efd; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: coral;
+  margin: auto; }
+
+.copy {
+  padding: 1em;
+  text-align: center; }
+
+@media (min-width: 600px) {
+  .val {
+    display: grid;
+    grid-template-columns: 1fr 1fr; } }
+@media (min-width: 800px) {
+  .val {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; } }

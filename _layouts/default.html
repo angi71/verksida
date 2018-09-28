@@ -3,10 +3,18 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href={{ "/assets/css/main.css" | relative_url }}>
+    <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
-  <body>
-    {% include navigation.html %}
-    {{ content }}
+  <body class="cent">
+    <header>
+      <h1>
+        {{ page.head }}
+      </h1>
+    </header>
+    <section class="bakgrun container">
+      {% include navigation.html %}
+      {{ content }}
+    </section>
+    <p class="copy">&copy; 2018 ÁAA</p>
   </body>
 </html>
