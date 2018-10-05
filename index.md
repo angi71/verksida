@@ -3,6 +3,7 @@ layout: default
 title: Heim
 head: Heimasíða
 ---
-<h1>Halló</h1>
+# Halló
 
+Þessi vefsíða hefur bara lorem ipsum
 

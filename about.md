@@ -3,7 +3,8 @@ layout: default
 title: Um okkur
 head: Um okkur
 ---
-# Um okkur
+Þessi vefsíða byrtir post sem hefur bara Lorem ipsum af vefsíðuni 
+[lipsum](https://www.lipsum.com)
 
-This page tells you a little bit about me.
-![Mynd](/assets/img/download.png)
+
+![Mynd](/assets/img/9781108012430_p0_v1_s550x406.jpg)

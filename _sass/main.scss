@@ -10,6 +10,10 @@ $litur: blue;
   text-align: center;
   background-color: coral; 
 }
+.post{
+ border: 5px, solid, cyan;
+ background-color: rgb(124, 201, 226);
+}
 .current {
     color: limegreen;
     background-color: rgb(252, 84, 23)
@@ -22,7 +26,7 @@ $litur: blue;
     padding: 1em;
   }
 .bakgrun {
-  background: lightblue;
+  background: coral;
   width: 100%;
 }
 header{
@@ -39,13 +43,9 @@ a {
   }
 body{
     font-family:  Arial, Helvetica, sans-serif;
-    background-color: coral;
+    background-color: lightblue;
     margin: auto;
   }
-.copy {
-	padding: 1em;
-	text-align: center;
-}
   
   @media (min-width:600px){
     .val{

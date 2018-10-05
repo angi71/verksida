@@ -2,19 +2,19 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
-  <body class="cent">
-    <header>
+  <body class=" cent">
+    <header class="container bakgrun">
       <h1>
         {{ page.head }}
       </h1>
     </header>
-    <section class="bakgrun container">
+    <section class="container">
       {% include navigation.html %}
       {{ content }}
     </section>
-    <p class="copy">&copy; 2018 ÁAA</p>
   </body>
 </html>

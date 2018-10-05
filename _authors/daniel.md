@@ -1,7 +1,7 @@
 ---
 short_name: daníel 
-name: Daníel Sigurðson 
+name: Daníel Sigurðsson 
 position: Ritstjóri
 head: Vinnufólk
 ---
-Jill is an avid fruit grower based in the south of France.
+Einhver sem datt í hug að gera vefsíðu sem inniheldur Lorem ipsum
