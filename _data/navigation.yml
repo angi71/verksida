@@ -1,8 +1,12 @@
 - name: Heim
+  class: class="icon-home"
   link: /
 - name: Um okkur
+  class: class="icon-um"
   link: /about.html
 - name: Blog
+  class: class="icon-blog"
   link: /blog.html
 - name: Vinnufólk
+  class: class="icon-folk"
   link: /staff.html
