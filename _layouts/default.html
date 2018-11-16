@@ -7,15 +7,20 @@
     <link rel="stylesheet" href={{ "/assets/css/styles.css" | relative_url }}>
   </head>
   <body class=" cent">
+    {% include navigation.html %}
     <header class="container bakgrun">
       <h1>
-        <img class="logo_header" src="assets/img/logo.svg">
         {{ page.head }}
       </h1>
     </header>
-    <section  class="logo" class="container"></section>
-      {% include navigation.html %}
-      {{ content }}
+    <section  class="main">
+      <div>
+        {{ content }}
+      </div>
+      <div class="aug">
+        <img src="assets/img/250px-Kirby_SSBU.png">
+        <h3>Smeltu á þessa mynd</h3>
+      </div>
     </section>
   </body>
 </html>
